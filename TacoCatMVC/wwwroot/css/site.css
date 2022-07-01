@@ -1,0 +1,89 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+:root {
+    --primary-color: #5065a8;
+    --secondary-color: #F5A000;
+    --dark-color: #292929;
+    --white-color: #e7e7e7;
+}
+
+body {
+    color: var(--dark-color);
+}
+
+nav {
+    background-color: var(--dark-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+footer .social > a {
+    color: var(--white-color);
+}
+
+footer .social > a:hover {
+    opacity: 0.9;
+    color: var(--secondary-color);
+}
+
+.bsicon {
+    color: purple;
+}
+
+.jsicon {
+    color: rgb(226,211,4);
+}
+
+.htmlicon {
+    color: orangered;
+}
+
+.cssicon {
+    color: rgb(11,82,214);
+}
+
+.checklist > li i {
+    color: #ffcc00;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+main > .container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
